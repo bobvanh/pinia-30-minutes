@@ -13,11 +13,11 @@
 
 <script setup lang="ts">
 import { storeToRefs } from 'pinia'
-import { useCounterStore } from '@/stores/counter.ts'
+import { useCounterStore } from '@/stores/counter'
 import Counter from '@/components/Counter.vue'
 
 const store = useCounterStore()
-const { count, oddOrEven } = storeToRefs(store)
+const { oddOrEven } = storeToRefs(store)
 </script>
 
 <style>
