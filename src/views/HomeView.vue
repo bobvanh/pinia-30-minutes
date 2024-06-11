@@ -13,7 +13,7 @@
 
 <script setup lang="ts">
 import { storeToRefs } from 'pinia'
-import { useCounterStore } from '@/stores/counter'
+import { useCounterStore } from '@/stores/counter.ts'
 import Counter from '@/components/Counter.vue'
 
 const store = useCounterStore()
