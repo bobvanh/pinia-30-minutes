@@ -12,7 +12,6 @@
 </template>
 
 <script setup lang="ts">
-import { ref, computed } from 'vue'
 import { storeToRefs } from 'pinia'
 import { useCounterStore } from '@/stores/counter.ts'
 import Counter from '@/components/Counter.vue'
